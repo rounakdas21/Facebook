@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  height: auto;
+  width: auto;
+  flex-direction: row;
+  padding: 5px 5px;
+  border-bottom: 2px solid grey;
+}
+
+.fbicon-searchbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 40px;
+  width: 25%;
+  gap: 2%;
+}
+
+.fbicon-searchbar > div:hover > i {
+  cursor: pointer;
+}
+
+.fbicon-searchbar > div > input {
+  font-size: 50%;
+  width: 50%;
+  border-radius: 20px;
+  padding: 3% 7%;
+  background-color: lightgray;
+  border: 0;
+}
+
+.search-box {
+  margin-top: -13px;
+}
+
+.center-navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  gap: 5%;
+  width: 50%;
+}
+
+.center-navbar-links > div > i {
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+
+.center-navbar-links > div:hover > i {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.right-navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+  width: 25%;
+  gap: 5%;
+  justify-content: end;
+}
+
+.right-navbar-links > div:hover > i {
+  cursor: pointer;
+}
+
+.profile {
+  border-radius: 20px;
+  padding: 5px 8px;
+  background-color: lightgrey;
+}
+
+.profile:hover {
+  cursor: pointer;
+  background-color: grey;
+  transition: 5ms;
+}
